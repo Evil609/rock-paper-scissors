@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(37, 37, 37);
+}
+p{
+  color: white;
+}
+.titles{
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+}
+.moveBT{
+  padding: 20px 25px;
+  background-color: transparent;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+img{
+  object-fit: contain;
+  width: 100%;
+}
+.pickPM,.pickAIM{
+  display: inline-block;
+  object-fit: contain;
+  width: 75px;
+  height: 75px;
+}
+.resetScore{
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial;
+  cursor: pointer;
+}
+.result{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial;
+}
